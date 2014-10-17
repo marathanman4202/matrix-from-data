@@ -3,6 +3,8 @@ def matrix_from_xls(file_w_path,column,xcycle,skip,filetype='csv'):
     """
     import numpy as np
     import xlrd
+    
+    filetype = file_w_path.rsplit('.')[-1]
 
     if filetype == 'csv':
         data_tmp = np.array(np.genfromtxt(file_w_path, delimiter=',',skip_header=1)) # Read csv file

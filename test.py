@@ -9,7 +9,7 @@ from matrix_from_xls import matrix_from_xls as mfx
 
 file = 'C:\\Users\\haggertr\\Desktop\\Documents\\work - OSU\\research\\WW2100\\Research\\results2\\Cascade_plots\\save tmp\\testdata.xls'
 
-a = mfx(file,1,24,3,filetype='xls')
+a = mfx(file,1,24,3,filetype=typef)
 
 b=a
 
